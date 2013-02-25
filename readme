@@ -1,0 +1,26 @@
+1. Introduction
+Two purposes for this open source projects:
+	1) Learning python
+	2) create an app to read english articles without annoying unknown words
+
+2. Structure
+
+happy_reading:
+	annotater.py			#main code
+	known_words.txt			# reference of known words list
+	example:
+		war_and_peace.txt	http://www.gutenberg.org/dirs/2/6/0/2600/2600.txt
+		annotated_war_and_peace.txt	
+		unknown_words.txt	#unknown words of this book
+	knownWordsFiles:		#known words file list, which are merged into known_words.txt file
+		junior.txt
+		senior.txt
+		cet4.txt
+		cet6.txt
+
+3. Update Info
+	1) Merging the knwon words files into knwon_words.txt
+	2) Annotating possible unknown words for an english article, supporting txt file currently
+
+4. Bugs:
+	1) Some basic forms of words could not be find by WordNet Interface
